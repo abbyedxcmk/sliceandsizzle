@@ -5,6 +5,7 @@ import Supersellers from './components/Supersellers';
 import Menu from './components/Menu';
 import Feedbacks from './components/Feedbacks';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Supersellers />
       <Feedbacks />
       <Contact />
+      <Footer />
     </>
   )
 }
