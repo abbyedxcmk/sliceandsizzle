@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Supersellers from './components/Supersellers';
 import Menu from './components/Menu';
+import Basket from './components/Basket';
 import Feedbacks from './components/Feedbacks';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -13,8 +14,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Menu />
       <Supersellers />
+      <Menu />
+      <Basket />
       <Feedbacks />
       <Contact />
       <Footer />
